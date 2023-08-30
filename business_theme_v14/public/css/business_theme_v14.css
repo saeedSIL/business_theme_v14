@@ -208,6 +208,10 @@ input:focus{
     color: var(--white-color);
     text-decoration: none;
 }
+#navbar-breadcrumbs li.disabled a {
+	color: var(--primary-color) !important;
+}
+
 header .form-control{
     color: var(--white-color);
 }
